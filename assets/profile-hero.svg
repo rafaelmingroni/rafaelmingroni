@@ -1,58 +1,79 @@
-<svg width="1100" height="250" viewBox="0 0 1100 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="250" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1020"/>
-      <stop offset="0.52" stop-color="#15132D"/>
-      <stop offset="1" stop-color="#24124A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B14"/>
+      <stop offset="0.55" stop-color="#0D1120"/>
+      <stop offset="1" stop-color="#11172A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="50" y1="50" x2="1000" y2="210" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2563EB"/>
-      <stop offset="0.55" stop-color="#7C3AED"/>
-      <stop offset="1" stop-color="#A855F7"/>
+    <linearGradient id="accent" x1="640" y1="40" x2="1120" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="0.52" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#D946EF"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="22"/>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientTransform="translate(980 105) rotate(143) scale(350 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientTransform="translate(720 260) rotate(-30) scale(280 200)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
     </filter>
   </defs>
 
-  <rect width="1100" height="250" rx="22" fill="url(#bg)"/>
-  <circle cx="940" cy="50" r="150" fill="#6D28D9" fill-opacity="0.16" filter="url(#glow)"/>
-  <circle cx="100" cy="240" r="140" fill="#2563EB" fill-opacity="0.12" filter="url(#glow)"/>
-  <rect x="1" y="1" width="1098" height="248" rx="21" stroke="url(#accent)" stroke-opacity="0.35"/>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#glow1)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#glow2)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="27.25" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1.5"/>
 
-  <g opacity="0.9">
-    <circle cx="55" cy="44" r="6" fill="#FF5F57"/>
-    <circle cx="77" cy="44" r="6" fill="#FEBB2E"/>
-    <circle cx="99" cy="44" r="6" fill="#28C840"/>
+  <g opacity="0.18">
+    <path d="M0 248C160 214 250 280 401 250C540 222 618 164 764 188C899 210 1021 254 1200 203" stroke="#7C3AED" stroke-width="1.2"/>
+    <path d="M0 265C177 228 287 290 441 264C600 237 702 186 844 209C973 229 1070 254 1200 222" stroke="#2563EB" stroke-width="1"/>
   </g>
 
-  <text x="55" y="95" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">rafael@github:~$</text>
-  <text x="235" y="95" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">build --product mingrx</text>
-
-  <text x="55" y="145" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Building products that feel fast, useful and polished.</text>
-  <text x="55" y="182" fill="#B6C2D9" font-family="Inter, Arial, sans-serif" font-size="18">Software Development  •  Data  •  Automation  •  Product Thinking</text>
-
-  <g transform="translate(55 205)">
-    <rect width="120" height="28" rx="14" fill="#2563EB" fill-opacity="0.18" stroke="#3B82F6" stroke-opacity="0.5"/>
-    <text x="60" y="19" text-anchor="middle" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600">SOFTWARE</text>
-  </g>
-  <g transform="translate(187 205)">
-    <rect width="88" height="28" rx="14" fill="#7C3AED" fill-opacity="0.18" stroke="#8B5CF6" stroke-opacity="0.5"/>
-    <text x="44" y="19" text-anchor="middle" fill="#DDD6FE" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600">DATA</text>
-  </g>
-  <g transform="translate(287 205)">
-    <rect width="130" height="28" rx="14" fill="#A855F7" fill-opacity="0.16" stroke="#A855F7" stroke-opacity="0.5"/>
-    <text x="65" y="19" text-anchor="middle" fill="#E9D5FF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600">AUTOMATION</text>
-  </g>
-  <g transform="translate(429 205)">
-    <rect width="106" height="28" rx="14" fill="#22C55E" fill-opacity="0.12" stroke="#22C55E" stroke-opacity="0.45"/>
-    <text x="53" y="19" text-anchor="middle" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600">SHIPPING</text>
+  <g transform="translate(62 55)">
+    <rect width="154" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <circle cx="18" cy="15" r="4" fill="#8B5CF6"/>
+    <text x="31" y="20" fill="#B9C1D3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">BUILDING NOW</text>
   </g>
 
-  <g transform="translate(810 86)">
-    <rect width="225" height="96" rx="18" fill="#0F172A" fill-opacity="0.75" stroke="#7C3AED" stroke-opacity="0.42"/>
-    <text x="22" y="32" fill="#A78BFA" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">CURRENTLY BUILDING</text>
-    <text x="22" y="65" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">Mingrx</text>
-    <text x="22" y="84" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="12">voice • chat • screen sharing</text>
+  <text x="62" y="132" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" letter-spacing="-1.2">Software that feels</text>
+  <text x="62" y="181" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" letter-spacing="-1.2">fast, useful &amp; polished.</text>
+
+  <text x="64" y="222" fill="#8F9AAF" font-family="Arial, Helvetica, sans-serif" font-size="17">Software Development  ·  Data  ·  Automation  ·  Product</text>
+
+  <g transform="translate(64 248)">
+    <circle cx="6" cy="6" r="6" fill="#22C55E"/>
+    <text x="20" y="12" fill="#D7DEEA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600">Currently shipping Mingrx</text>
+  </g>
+
+  <g transform="translate(820 48)">
+    <rect x="50" y="0" width="238" height="202" rx="30" fill="#FFFFFF" fill-opacity="0.035" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <rect x="20" y="28" width="238" height="202" rx="30" fill="#0C1222" stroke="#FFFFFF" stroke-opacity="0.10"/>
+
+    <g transform="translate(48 58)">
+      <rect width="182" height="44" rx="13" fill="#FFFFFF" fill-opacity="0.045"/>
+      <circle cx="23" cy="22" r="9" fill="#2563EB" fill-opacity="0.95"/>
+      <path d="M19 22L22 25L28 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="43" y="27" fill="#E7EBF3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Realtime communication</text>
+    </g>
+
+    <g transform="translate(48 113)">
+      <rect width="182" height="44" rx="13" fill="#FFFFFF" fill-opacity="0.045"/>
+      <circle cx="23" cy="22" r="9" fill="#7C3AED" fill-opacity="0.95"/>
+      <path d="M19 22L22 25L28 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="43" y="27" fill="#E7EBF3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Lightweight desktop UX</text>
+    </g>
+
+    <g transform="translate(48 168)">
+      <rect width="182" height="44" rx="13" fill="#FFFFFF" fill-opacity="0.045"/>
+      <circle cx="23" cy="22" r="9" fill="#D946EF" fill-opacity="0.95"/>
+      <path d="M19 22L22 25L28 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="43" y="27" fill="#E7EBF3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Built to ship &amp; improve</text>
+    </g>
+
+    <circle cx="274" cy="18" r="46" fill="#7C3AED" fill-opacity="0.22" filter="url(#blur)"/>
   </g>
 </svg>
