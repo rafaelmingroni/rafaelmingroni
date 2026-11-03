@@ -34,13 +34,25 @@ Right now, most of my energy goes into **[Mingrx](https://github.com/rafaelmingr
 
 ## 🚀 Featured project — Mingrx
 
-<div align="center">
+<table width="100%">
+<tr>
+<td align="center" valign="middle">
 
-### Voice, chat and screen sharing — built to stay light while you play.
+### 🎧 Mingrx
 
-[![Mingrx Repo](https://github-readme-stats.vercel.app/api/pin/?username=rafaelmingroni&repo=mingrx-app&theme=tokyonight&hide_border=true)](https://github.com/rafaelmingroni/mingrx-app)
+**Voice, chat and screen sharing — built to stay light while you play.**
 
-</div>
+A lightweight Windows communication platform designed around fast interaction, clean UI and low overhead while gaming.
+
+`Electron` · `JavaScript` · `Firebase` · `WebRTC` · `GitHub Actions`
+
+<br>
+
+<a href="https://github.com/rafaelmingroni/mingrx-app"><b>View repository →</b></a>
+
+</td>
+</tr>
+</table>
 
 **Mingrx** is a Windows desktop communication platform built around communities, text and voice channels, private messages, webcam and screen sharing.
 
