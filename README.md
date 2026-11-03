@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,45:6D28D9,100:2563EB&height=220&section=header&text=Rafael%20Mingroni&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Software%20Developer%20%E2%80%A2%20Computer%20Science%20%E2%80%A2%20Product%20Builder&descAlignY=56&descSize=18" alt="Rafael Mingroni banner" />
 
-<img src="https://github.com/rafaelmingroni.png" width="132" alt="Rafael Mingroni" />
+<img width="100%" src="./assets/profile-hero.svg" alt="Rafael Mingroni developer banner" />
 
 <br><br>
 
@@ -15,10 +15,6 @@
 <a href="https://github.com/rafaelmingroni/mingrx-app">
   <img src="https://img.shields.io/badge/Building-Mingrx-7C3AED?style=for-the-badge&logo=electron&logoColor=white" alt="Mingrx">
 </a>
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=700&lines=Building+real+products+from+idea+to+production;Software+%2B+Data+%2B+Automation;Currently+building+Mingrx" alt="Typing SVG" />
 
 </div>
 
