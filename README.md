@@ -124,14 +124,49 @@ Backend API for the Volta Cliente platform, handling tenants, scheduling, authen
 
 ## 📊 GitHub at a glance
 
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🚀 Product
+
+**Mingrx**
+
+Building a real-time desktop communication platform from product idea to production.
+
+`Electron` · `WebRTC` · `Firebase`
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### ⚙️ Engineering
+
+**Full product lifecycle**
+
+Frontend, backend, cloud, testing, CI/CD and automated Windows releases.
+
+`GitHub Actions` · `Testing` · `CI/CD`
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 📈 Data
+
+**Analytics & automation**
+
+Turning operational data into dashboards, insights and automated workflows.
+
+`Python` · `SQL` · `Excel` · `Power BI`
+
+</td>
+</tr>
+</table>
+
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rafaelmingroni&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Rafael's GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafaelmingroni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages" />
-
-<br>
-
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=rafaelmingroni&theme=tokyo-night&hide_border=true&area=true" alt="GitHub contribution graph" />
+[![Mingrx](https://img.shields.io/badge/Featured-Mingrx-7C3AED?style=flat-square&logo=electron&logoColor=white)](https://github.com/rafaelmingroni/mingrx-app)
+![Focus](https://img.shields.io/badge/Focus-Product_%26_Software_Engineering-2563EB?style=flat-square)
+![Location](https://img.shields.io/badge/S%C3%A3o_Paulo-Brazil-111827?style=flat-square)
 
 </div>
 
